@@ -42,8 +42,7 @@ form{
     padding-left: 15px; 
     border-radius: 20px;
     /* border-style: none;
-    border-bottom: 1px solid gray ; */
-    
+    border-bottom: 1px solid gray ; */  
 }
 .button{
     display: flex;
@@ -58,4 +57,16 @@ form{
    background-color: #009989;
    color: white;
    /* border-radius: 1px solid white; */
+}
+button:hover{
+    color: white;
+    background: rgb(1, 107, 133);
+    transition: 2s;
+}
+.logo{
+    width: 80%;
+    height: 45px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 40px;
 }
