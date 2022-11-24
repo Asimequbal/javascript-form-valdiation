@@ -37,19 +37,19 @@ form{
 .form_input input{
     height: 40px;
     width: 80%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 43px;  
     padding-left: 15px; 
     border-radius: 20px;
     /* border-style: none;
     border-bottom: 1px solid gray ; */  
 }
-.button{
+.button1{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.button button{
+.btn_submit{
    width: 150px;
    height: 40px;
    border-radius: 20px;
@@ -58,9 +58,9 @@ form{
    color: white;
    /* border-radius: 1px solid white; */
 }
-button:hover{
+.btn_submit:hover{
     color: white;
-    background: rgb(1, 107, 133);
+    background: rgb(180, 89, 245);
     transition: 2s;
 }
 .logo{
@@ -70,3 +70,11 @@ button:hover{
     margin-top: 30px;
     margin-left: 40px;
 }
+.error_message{
+    margin-left: 52px;
+    margin-bottom: 21px;
+    margin-top: 7px;
+    font-size: 16px;
+    color: red;
+}
+

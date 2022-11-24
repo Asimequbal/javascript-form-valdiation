@@ -13,33 +13,39 @@
 <body>
    <section class="main">
    
-    <form >
+    <form name="register" class="form" onsubmit="event.preventDefault(); return valdidateForm()">
         <div class="sign_up">
             <h1>Sign Up Form</h1>
         </div>
         <div class="form_input">
-            <input type="text" placeholder="Full Name">
+            <!-- <label for="fullName" class="name_label">Full Name</label> -->
+            <input type="text" name="fullName" placeholder="Full Name" id="fullName">
         </div>
         <div class="form_input">
-            <input type="email" placeholder="Write your email">
+            <input type="number" name="Phone" placeholder="Phone Number" id="Phone">
         </div>
         <div class="form_input">
-            <input type="number" placeholder="Phone Number">
+            <input type="email"  name="EmailId" placeholder="Write your email" id="EmailId">
         </div>
         <div class="form_input">
-            <input type="password" placeholder="Enter your password">
+            <input type="password" name="Pasword" placeholder="Enter your password" id="Pasword">
         </div>
-        <div class="button">
-            <button>Sign Up</button>
+        <div class="error_message"></div>
+        <div class="button1">
+            <button type="submit" class="btn_submit">Sign Up</button>
         </div>
-    
-       </form>
+        
+    </form>
+
    </section>
+   
    
 
 
 
 
-    <script src="form.js"></script>
+    <script src="form.js">
+
+    </script>
 </body>
 </html>
